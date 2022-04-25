@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon (5).ico"
+      type="image/x-icon"
+    />
+
+    <link rel="icon" href="images/favicon (5).ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand px-5" href="#"
+            ><img id="logo" src="images\logo.png"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active px-3" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Banner -->
+
+    <div class="banner">
+      <div class="centered"></div>
+      <img src="images/banner.jpg" alt="" />
+      <h1 style="color: black">Welcome to our Home page</h1>
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#exampleModal"
+      >
+        LEARN MORE
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">LEARN MORE</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut,
+              voluptatem sit, earum quis nobis cum, voluptas officia corporis ea
+              error perspiciatis! Cum officiis aut illo earum, provident unde
+              eum voluptatibus?
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <a id="about"><h1>About us</h1></a>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, sed ex
+        eveniet esse delectus nemo sint velit necessitatibus rerum cumque!
+        Quaerat iusto veritatis assumenda possimus.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cum
+        vel totam odio similique aliquid ipsa ullam officiis earum enim
+        voluptates dolores tempore, natus autem?
+      </p>
+      <iframe src="https://www.youtube.com/embed/CX8ZybaPB5Y"></iframe>
+    </section>
+
+    <section>
+      <a id="contact"><h1>Contact Us</h1></a>
+      <form>
+        <label for="name">Name</label>
+        <br />
+
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Please enter your name"
+        />
+        <br />
+        <br />
+        <label for="email">Email</label>
+        <br />
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Please enter your email"
+        />
+        <br />
+        <br />
+        <label for="message">Message</label>
+        <br />
+        <textarea type="text" id="message" cols="30" rows="15"></textarea>
+
+        <br />
+        <input name="submit" id="submit" type="button" value="submit" />
+        <br />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d67677.27324546766!2d18.472520735455163!3d-33.96463220732142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1650554957792!5m2!1sen!2sza"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </form>
+    </section>
+
+    <footer>
+      <p>Copyright 2022 by Ask.com. All Rights Reserved.</p>
+    </footer>
+    <!-- Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
